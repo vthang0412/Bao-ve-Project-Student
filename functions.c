@@ -24,8 +24,6 @@ void menuAdmin(void){
 	printf("[1]: Students management.\n");
 	printf("[2]: ClassRooms managemment.(Chua duoc tao)\n");
 	printf("[3]: Teacher management.\n");
-	printf("[4]: User Guideline.(Chua duoc tao)\n");
-	printf("[5]: About Us.(Chua duoc tao)\n");
 	printf("[0]: Exit the Program. \n");
 	printf("Enter The Choice: ");
 }
