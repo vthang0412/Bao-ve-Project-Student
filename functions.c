@@ -75,20 +75,20 @@ void removeSpaces(char *str) {
 // Login Admin
 void loginAdmin() {
     char email[50];
-    const char correctEmail[] = "vthang041206@gmail.com";  
-    const char correctPassword[] = "041206";  
+    const char correctEmail[] = "admin";  
+    const char correctPassword[] = "123";  
     char password[50];
     while (1) {
         printf("**** STUDENT MANAGEMENT ****\n");
         printf("\n\t    LOGIN \n");
-        printf("Nhap Email: ");
+        printf("Nhap Email(admin): ");
         if (fgets(email, sizeof(email), stdin) == NULL) {
             printf("Loi khi nhap Email.\n");
             continue;
         }
         email[strcspn(email, "\n")] = '\0'; 
         removeSpaces(email);
-        printf("Nhap Mat Khau: ");
+        printf("Nhap Mat Khau(123): ");
         if (fgets(password, sizeof(password), stdin) == NULL) {
             printf("Loi khi nhap Mat Khau.\n");
             continue;
